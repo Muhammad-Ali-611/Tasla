@@ -20,6 +20,31 @@
             <version>4.0.0-beta-3</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.knox</groupId>
+            <artifactId>knox-homepage-ui</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>4.0.0-beta-3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jenkins-ci.main</groupId>
+            <artifactId>jenkins-core</artifactId>
+            <version>2.291</version>
+        </dependency>
+
+
+
     </dependencies>
 
     <properties>
